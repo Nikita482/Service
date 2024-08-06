@@ -1,0 +1,108 @@
+/* Стиль для контейнера ленты */
+.horizontalScroll {
+    display: flex; /* Используем Flexbox для горизонтального выравнивания */
+    overflow-x: auto; /* Добавляем горизонтальную прокрутку, если элементы не помещаются */
+    white-space: nowrap; /* Запрещаем перенос строк, чтобы элементы шли в одну строку */
+    padding: 10px; /* Добавляем отступы вокруг ленты */
+  }
+  
+  /* Стиль для отдельных элементов ленты */
+  .item {
+    display: inline-block; /* Задаем элементам блочное отображение внутри flex-контейнера */
+    min-width: 150px; /* Ширина каждого элемента */
+    height: 100px; /* Высота каждого элемента */
+    margin-right: 10px; /* Отступ справа между элементами */
+    background-color: #f0f0f0; /* Цвет фона элемента */
+    text-align: center; /* Выравнивание текста по центру */
+    line-height: 100px; /* Выравнивание текста по вертикали */
+  }
+  
+
+
+  .wrapper{
+    display: flex;
+    overflow-x: auto;
+  }
+  .box{
+    display: inline-block;
+    min-width: 300px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    line-height: 200px;
+    margin-right: 10px;
+    
+  }
+
+
+
+
+
+  .horizontalScroll {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Скрываем переполнение, чтобы стрелки не выглядывали */
+  }
+  
+  .items {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px; /* Дополнительные отступы вокруг ленты */
+  }
+  
+  .item {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .arrowLeft,
+  .arrowRight {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .arrowLeft {
+    left: 10px;
+  }
+  
+  .arrowRight {
+    right: 10px;
+  }
+  
+  .hint {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Полоса прокрутки для браузеров Webkit */
+  .horizontalScroll::-webkit-scrollbar {
+    height: 8px; /* Высота полосы прокрутки */
+  }
+  
+  .horizontalScroll::-webkit-scrollbar-thumb {
+    background: #888; /* Цвет ползунка */
+    border-radius: 4px;
+  }
+  
+  .horizontalScroll::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Цвет ползунка при наведении */
+  }
+  

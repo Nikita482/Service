@@ -1,0 +1,168 @@
+.color{
+    background-color: #E0F2F1;
+    width: 90%;
+    height: auto;
+    padding: 0 30px 30px 30px;
+    margin: 50px auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+
+.text{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+
+.textH1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.MainWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.arrow{
+    display: none;
+    width: 94%;
+    height: 250px;
+    /* background-color: blue; */
+    position: absolute;
+    pointer-events: none;
+    top: 20%;
+    z-index: 20;
+    left: 50%;
+    transform: translate(-50%);
+}
+.arrowLeft, .arrowRight{
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%);
+    z-index: 10;
+    font-size: 30px;
+    color: white;
+}
+.arrowLeft{
+    left: 1.5%;
+}
+.arrowRight{
+    right: -1%;
+}
+
+
+
+
+
+
+
+
+  
+
+@media (max-width: 1050px) {
+    .MainWrapper{
+        display: flex; 
+        overflow-x: auto; 
+        white-space: nowrap;
+        flex-wrap: nowrap;
+    }
+    .arrow{
+        display: flex;
+    }
+    .color{
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 950px) {
+    .MainWrapper{
+        justify-content: space-around;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .arrowLeft{
+        left: 2%;
+    }
+    .arrowRight{
+        right: -1%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .arrowLeft{
+        left: 3%;
+    }
+    .arrowRight{
+        right: -0.5%;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .arrowLeft{
+        left: 5%;
+    }
+    .arrowLeft, .arrowRight{
+        top: 40%;
+        transform: translate(-50%);
+    }
+}
+
+
+@media (max-width: 550px) {
+    .arrowLeft{
+        left: 7%;
+    }
+    .arrowRight{
+        right: 0%;
+    }
+}
+
+
+@media (max-width: 528px) {
+    .arrowLeft, .arrowRight{
+        top: 55%;
+        transform: translate(-50%);
+    }
+}
+
+
+@media (max-width: 450px) {
+    .arrowLeft{
+        left: 9%;
+    }
+    .arrowRight{
+        right: 1%;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .arrowLeft{
+        left: 11%;
+    }
+    .arrowRight{
+        right: 1%;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .arrowLeft{
+        left: 14%;
+    }
+    .arrowRight{
+        right: 2%;
+    }
+}

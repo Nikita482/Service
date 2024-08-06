@@ -9,6 +9,7 @@
 }
 
 
+
 /* название шапки */
 .headerName{
     width: 15%;
@@ -229,6 +230,27 @@
 }
 
 
+@media (max-width: 1050px) {
+    .header{
+        width: 106%;
+    }
+
+    .menuPk{
+        width: 95%;
+        margin-left: 50px;
+    }
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .header{
+        width: 109%;
+    }
+}
+
+
 @media (max-width: 750px) {
     .menuBtn1, .menuBtnMain{
         display: none;
@@ -254,7 +276,12 @@
     .menuBtnPk2, .menuBtnPk4{
         border-radius: 0 0 0 0;
     }
+
+    .menuPk{
+        width: 93%;
+    }
 }
+
 
 
 @media (max-width: 700px) {
@@ -265,7 +292,7 @@
     }
 
     .wrapperOpen{
-        right: -700px;
+        right: -800px;
     }
     .wrapperClosed{
         right: 0;
@@ -277,6 +304,39 @@
 }
 
 
+@media (max-width: 650px) {
+    .header{
+        width: 113%;
+    }
+}
 
+
+@media (max-width: 600px) {
+    .menuPk{
+        width: 93%;
+        margin-left: 40px;
+    }
+}
+
+
+@media (max-width: 470px) {
+    .header{
+        width: 115%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .header{
+        width: 118%;
+    }
+}
+
+
+@media (max-width: 330px) {
+    .header{
+        width: 120%;
+    }
+}
 
 

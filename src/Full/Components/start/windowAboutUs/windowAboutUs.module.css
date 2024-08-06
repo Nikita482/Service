@@ -100,7 +100,6 @@
 
 
 
-
 @media (max-height: 700px) {
     .wrapperMargin1{
         margin-top: 25px;
@@ -204,12 +203,5 @@
 
 
 
-/* @media (max-width: 200px) {
-    .wrapperMax{
-        display: none;
-    }
-    .wrapperMin{
-        display: block;
-    }
-} */
+
 
