@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Nikita482.github.io/Service",
+  "homepage": "https://nikita482.github.io/Service",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
