@@ -1,0 +1,80 @@
+.wrapper{
+    width: 95%;
+    height: 500px;
+    background-color: #E0F2F1;
+    margin: 50px auto;
+    border-radius: 30px;
+}
+
+
+.info{
+    width: 90%;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+}
+.boxInfo1, .boxInfo2, .boxInfo3, .boxInfo4{
+    width: 25%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.textInfo{
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 1050px) {
+    .wrapper{
+        width: 106%;
+    }
+    .boxInfo3{
+        display: none;
+    }
+    .boxInfo1, .boxInfo2, .boxInfo4{
+        width: 33%;
+    }
+
+}
+
+
+@media (max-width: 1005px) {
+    .wrapper{
+        width: 110%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .wrapper{
+        width: 112%;
+    }
+    .boxInfo2{
+        display: none;
+    }
+    .boxInfo1, .boxInfo4{
+        width: 50%;
+    }
+
+}
+
+
+@media (max-width: 520px) {
+    .wrapper{
+        width: 115%;
+    }
+}
+
+
+@media (max-width: 430px) {
+    .wrapper{
+        width: 130%;
+    }
+}
+
+@media (max-width: 410px) {
+    .wrapper{
+        width: 135%;
+    }
+}
