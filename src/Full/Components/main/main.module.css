@@ -139,8 +139,12 @@
 
 
 @media (max-width: 450px) {
+    .arrowLeft, .arrowRight{
+        top: 60%;
+        transform: translate(-50%);
+    }
     .arrowLeft{
-        left: 3%;
+        left: 1%;
     }
     .arrowRight{
         right: 1%;
