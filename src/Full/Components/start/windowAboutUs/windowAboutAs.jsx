@@ -74,16 +74,6 @@ export default function WindowAboutUs(){
                 )}
 
             </div>
-
-
-
-
-
-
-
-            {/* <div className={styles.wrapper}>
-                
-            </div> */}
         </>
     )
 }

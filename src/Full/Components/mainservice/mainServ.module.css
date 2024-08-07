@@ -1,0 +1,218 @@
+.wrapper{
+    width: 95%;
+    height: auto;
+    background-color: #E0F2F1;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+
+.name{
+    text-align: center;
+    padding: 20px 0 30px 0; 
+}
+
+
+.boxLink{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+    display: block;
+    min-width: 400px;
+    min-height: 300px;
+    margin-bottom: 30px;
+    background-color: rgb(128, 128, 128, 0.1);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    border-radius: 30px;
+}
+.Link1{
+    background-image: url('https://i.pinimg.com/474x/a1/e2/19/a1e21974635138fe8a6e4deaf9ce0d04.jpg');
+    background-size: cover;
+}
+.Link2{
+    background-image: url('https://i.pinimg.com/474x/02/d5/14/02d514ec74727151cf8b95b3f9d76d85.jpg');
+    background-size: cover;
+}
+.Link3{
+    background-image: url('https://i.pinimg.com/474x/8a/ca/bb/8acabb6ff6c0e32450e35b166f81851b.jpg');
+    background-size: cover;
+}
+.Link4{
+    background-image: url('https://i.pinimg.com/564x/96/e2/f7/96e2f7332733fd321c96c6f5bb9140b2.jpg');
+    background-size: cover;
+}
+.Link5{
+    background-image: url('https://i.pinimg.com/474x/49/78/5a/49785a5b196d03bc04770f79142be848.jpg');
+    background-size: cover;
+    
+}
+.Link6{
+    background-image: url('https://i.pinimg.com/474x/52/54/90/5254909cbf2c2137f4adaeaf3992b466.jpg');
+    background-size: cover;
+}
+
+
+.text{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+
+@media (max-width: 1350px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        min-width: 500px;
+        min-height: 300px;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        min-width: 400px;
+        min-height: 300px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .wrapper{
+        width: 106%;
+    }
+}
+
+
+@media (max-width: 1001px) {
+    .wrapper{
+        width: 109%;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        min-width: 90%;
+        min-height: 300px;
+    }
+    .Link1{
+        background-position: center -50px;
+    }
+    .Link2{
+        background-position: center -50px;
+    }
+    .Link3{
+        background-size: 650px 350px;
+    }
+    .Link4{
+        /* background-position: center -500px; */
+        background-size: 730px 400px;
+    }
+    .Link5{
+        background-size: 700px 400px;
+        background-position: center -50px;
+    }
+    .Link6{
+        background-position: center -100px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .wrapper{
+        width: 113%;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .Link6{
+        background-position: center -30px;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .Link1{
+        background-position: center 0px;
+    }
+    .Link2{
+        background-position: center 0px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .wrapper{
+        width: 115%;
+    }
+}
+
+@media (max-width: 450px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        min-width: 90%;
+        min-height: 200px;
+    }
+    .Link1{
+        background-position: center -50px;
+    }
+    .Link2{
+        background-position: center -70px;
+    }
+    .Link3{
+        background-size: 430px 200px;
+    }
+    .Link4{
+        background-size: 450px 250px;
+    }
+    .Link5{
+        background-size: 450px 250px;
+    }
+    .Link6{
+        background-position: center -70px;
+    } 
+}
+
+
+@media (max-width: 400px) {
+    .wrapper{
+        width: 118%;
+    }
+
+    .Link1{
+        background-position: center -30px;
+    }
+
+    .Link2{
+        background-position: center -30px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .Link1, .Link2, .Link3, .Link4, .Link5, .Link6{
+        min-width: 90%;
+        min-height: 150px;
+    }
+    .Link2{
+        background-position: center -60px;
+    }
+    .Link3{
+        background-size: 330px 200px;
+    }
+    .Link4{
+        background-position: center -50px;
+        background-size: 380px 200px;
+    }
+    .Link6{
+        background-position: center -70px;
+    }
+}
