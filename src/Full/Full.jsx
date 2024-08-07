@@ -7,9 +7,11 @@ import MainService from "./Components/mainservice/mainServ"
 export default function Full(){
     return(
         <>
-            <Start />
-            <Main />
-            <MainService />
+            <div className={styles.wrapper}>
+                <Start />
+                <Main />
+                <MainService />
+            </div>
         </>
     )
 }
