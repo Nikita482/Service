@@ -324,9 +324,10 @@
 }
 
 
-@media (max-width: 430px) {
+@media (max-width: 410px) {
     .header{
         width: 140%;
+        padding-right: 30px;
     }
 }
 
