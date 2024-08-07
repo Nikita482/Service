@@ -329,6 +329,9 @@
         width: 140%;
         padding-right: 30px;
     }
+    .headerName{
+        margin-right: 20px;
+    }
 }
 
 
